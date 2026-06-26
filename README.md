@@ -1,4 +1,4 @@
-```
+
 # avaliacao de desempenho do ips snort em modo inline (daq afpacket)
 
 este repositorio contem a suite de automacao experimental, os conjuntos de dados brutos consolidados e os scripts de processamento estatistico referentes ao impacto de rede (overhead) gerado pelo snort operando como ips ativo (inline).
@@ -15,12 +15,12 @@ o objetivo central deste trabalho e quantificar a degradacao de desempenho provo
 
 a infraestrutura experimental foi implementada por meio de emulacao de sistemas utilizando o hypervisor virtualbox com sistemas operacionais reais.
 
-```text
+text
 [ vm cliente ] ======= (rede interna 1) ======> [ vm snort ips ] ======> (rede interna 2) =======> [ vm servidor ]
 (192.168.1.10)                                 (sem ip / promiscuo)                               (192.168.1.20)
                                                 interface enp0s8 | enp0s9
 
-```
+
 
 isolacao estrita do kernel
 --------------------------
